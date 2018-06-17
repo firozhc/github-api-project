@@ -3,7 +3,12 @@ import json
 
 
 def authenticate(url):
-	r = requests.request("GET", url)
+	username = "emperorscourge@gmail.com"
+	password = "Apple_123"
+
+	headers = { "Accept": "application/vnd.github.v3+json", "Content-Type": "application/json; charset=utf-8"}
+
+	r = requests.request("GET", url, headers=headers)
 	print(r.text)
 	
 
