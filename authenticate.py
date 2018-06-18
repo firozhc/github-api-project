@@ -18,7 +18,6 @@ def auth(url, username, password):
 		print(str(key)+": "+ str(value))
 	
 	
-
 def main():
 
 	base_url = "https://api.github.com/users/firozhc"
