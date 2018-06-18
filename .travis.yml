@@ -9,3 +9,8 @@ install:
 
 script:
   - python authenticate.py
+
+notifications:
+  email:
+    on_success: never
+    on_failure: never
