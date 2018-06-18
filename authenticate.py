@@ -9,7 +9,7 @@ def authenticate(url):
 
 def main():
 	base_url = "https://api.github.com"
-	authenticate(url)
+	authenticate(base_url)
 
 if __name__=="__main__":
 	main()
