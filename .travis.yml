@@ -13,4 +13,5 @@ script:
 notifications:
   email:
     on_success: never
+<<<<<<< HEAD
     on_failure: never
