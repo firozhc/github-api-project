@@ -1,0 +1,20 @@
+language: python
+python:
+  - "3.6"
+cache: pip
+install:
+  - pip install requests
+
+# command to install dependencies
+
+script:
+  - python authenticate.py
+
+notifications:
+  email:
+    on_success: never
+<<<<<<< HEAD
+    on_failure: never
+=======
+    on_failure: never
+>>>>>>> development
