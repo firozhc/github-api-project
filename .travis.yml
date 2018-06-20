@@ -8,7 +8,7 @@ install:
 # command to install dependencies
 
 script:
-  - python authenticate.py
+  - python main.py
 
 notifications:
   email:
