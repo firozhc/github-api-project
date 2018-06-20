@@ -19,17 +19,12 @@ def auth(url, username, password):
 	
 	
 def main():
-<<<<<<< HEAD
-	base_url = "https://api.github.com"
-	authenticate(base_url)
-=======
 
 	base_url = "https://api.github.com/users/firozhc"
 	username = "emperorscourge@gmail.com"
 	password = "Apple_123"
 
 	auth(base_url, username, password)
->>>>>>> development
 
 if __name__=="__main__":
 	main()
